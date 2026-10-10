@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Open One",
+    "slug": "open-one-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "open-one",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.openone.mobile",
+      "config": {"usesNonExemptEncryption": false},
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Open One connects to Open One on your Mac to continue your conversations.",
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        }
+      }
+    },
+    "android": {
+      "package": "app.openone.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#161616",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 112,
+          "resizeMode": "contain",
+          "backgroundColor": "#161616"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "backgroundColor": "#161616"
+  }
+}

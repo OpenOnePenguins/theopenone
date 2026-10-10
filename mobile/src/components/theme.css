@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  background-color: #161616;
+  color: #f2f2f7;
+}
+html, body, #root {
+  background-color: #161616;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+input, textarea {
+  caret-color: #84b9ff;
+}
+input::placeholder, textarea::placeholder {
+  color: #aaaab1;
+  opacity: 1;
+}
+input:focus-visible, textarea:focus-visible, [role="button"]:focus-visible {
+  outline: 2px solid #84b9ff;
+  outline-offset: 2px;
+}

@@ -1,0 +1,23 @@
+# EAS archives the repository root. Only the phone app belongs in its build.
+/*
+!/mobile/
+/mobile/node_modules/
+/mobile/.expo/
+/mobile/dist/
+/mobile/web-build/
+/mobile/ios/
+/mobile/android/
+/mobile/docs/
+/mobile/tests/
+/mobile/README.md
+/mobile/AGENTS.md
+.DS_Store
+*.xcuserstate
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+.env*
+*.tsbuildinfo
+npm-debug.*

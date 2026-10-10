@@ -1,0 +1,30 @@
+# Builds and dependencies
+.build/
+dist/
+node_modules/
+out/
+.expo/
+web-build/
+mobile/ios/
+mobile/android/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Local tooling, credentials, and runtime data
+.DS_Store
+*.xcuserstate
+.claude/
+.codex/
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+npm-debug.*
+work/session.json
+mobile/docs/
+docs/reference/
